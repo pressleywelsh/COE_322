@@ -1,4 +1,4 @@
-Pressley Welsh
-pbw466
-pressleywelsh524@gmail.com
-pressleywelsh
+Name: Pressley Welsh
+EID: pbw466
+TACC username: pressleywelsh524@gmail.com
+github username: pressleywelsh
