@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int N = 40;
+	int N;
+	cout<<"Enter an integer: "<<endl;
+	cin>>N;
 	bool factorFound=false;
 	while (factorFound==false){
 		for (int i=0; i<N;i++){
-			for (int j=10;j>0;j--){
-				if ((i*j)==N){
+			for (int j=9;j>=0;j--){
+				if ((i*j)>N){
 					cout<<i<<" , " <<j<<endl;
 					factorFound=true;
 					break;
@@ -28,5 +30,4 @@ int main(){
 	}
 
 	return 0;
-	
 }
