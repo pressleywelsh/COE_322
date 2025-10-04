@@ -1,0 +1,1 @@
+/opt/apps/gcc/15.1.0/bin/c++ -Wl,--dependency-file=CMakeFiles/hw5.dir/link.d CMakeFiles/hw5.dir/hw5.cpp.o -o hw5

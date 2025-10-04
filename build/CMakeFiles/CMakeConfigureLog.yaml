@@ -1,0 +1,1956 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/home1/apps/cmake/4.1.1/sbin/"
+      - "/home1/apps/cmake/4.1.1/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+      - "/bin/"
+    searched_directories:
+      - "/home1/apps/cmake/4.1.1/bin/uname"
+      - "/home1/apps/cmake/4.1.1/sbin/uname"
+      - "/home1/apps/cmake/4.1.1/uname"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/uname"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/uname"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/uname"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/uname"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/uname"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/uname"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/uname"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/uname"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/uname"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/uname"
+      - "/opt/apps/xalt/xalt/bin/uname"
+      - "/home1/apps/cmake/4.1.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/uname"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/uname"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/uname"
+      - "/opt/apps/gcc/15.1.0/bin/uname"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/uname"
+      - "/opt/apps/autotools/1.4/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 5.14.0-503.23.2.el9_5.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/home1/apps/cmake/4.1.1/sbin/"
+      - "/home1/apps/cmake/4.1.1/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/home1/apps/cmake/4.1.1/bin/gmake"
+      - "/home1/apps/cmake/4.1.1/sbin/gmake"
+      - "/home1/apps/cmake/4.1.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/gmake"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/gmake"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/gmake"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/gmake"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/gmake"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/gmake"
+      - "/opt/apps/xalt/xalt/bin/gmake"
+      - "/home1/apps/cmake/4.1.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gmake"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gmake"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gmake"
+      - "/opt/apps/gcc/15.1.0/bin/gmake"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gmake"
+      - "/opt/apps/autotools/1.4/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/home1/apps/cmake/4.1.1/sbin/"
+      - "/home1/apps/cmake/4.1.1/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/home1/apps/cmake/4.1.1/bin/c++"
+      - "/home1/apps/cmake/4.1.1/sbin/c++"
+      - "/home1/apps/cmake/4.1.1/c++"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/ccl/2021.15/c++"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/c++"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/ipp/2022.1/c++"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/ippcp/2025.1/c++"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL/c++"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/dnnl/2025.1/c++"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/dal/2025.5/c++"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/c++"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/sbin/c++"
+      - "/scratch/projects/compilers/intel25.1/tbb/2022.1/c++"
+      - "/opt/apps/xalt/xalt/bin/c++"
+      - "/home1/apps/cmake/4.1.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/c++"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/c++"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/c++"
+    found: "/opt/apps/gcc/15.1.0/bin/c++"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/"
+    found: "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/apps/gcc/15.1.0/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/4.1.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/strip"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/ld"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/nm"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/objdump"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/objcopy"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/readelf"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/opt/apps/gcc/15.1.0/bin/dlltool"
+      - "/opt/apps/xalt/xalt/bin/dlltool"
+      - "/home1/apps/cmake/4.1.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/dlltool"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/dlltool"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/dlltool"
+      - "/opt/apps/autotools/1.4/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/dlltool"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    found: "/opt/apps/gcc/15.1.0/bin/addr2line"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/opt/apps/gcc/15.1.0/bin/tapi"
+      - "/opt/apps/xalt/xalt/bin/tapi"
+      - "/home1/apps/cmake/4.1.1/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/tapi"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/tapi"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/tapi"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/tapi"
+      - "/opt/apps/autotools/1.4/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/sbin/tapi"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/tapi"
+    found: false
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.1"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ar-15.1"
+      - "/opt/apps/xalt/xalt/bin/gcc-ar-15.1"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ar-15.1"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ar-15.1"
+      - "/opt/apps/autotools/1.4/bin/gcc-ar-15.1"
+      - "/usr/local/bin/gcc-ar-15.1"
+      - "/usr/bin/gcc-ar-15.1"
+      - "/usr/local/sbin/gcc-ar-15.1"
+      - "/usr/sbin/gcc-ar-15.1"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ar-15.1"
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ar-15"
+      - "/opt/apps/xalt/xalt/bin/gcc-ar-15"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ar-15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ar-15"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ar-15"
+      - "/opt/apps/autotools/1.4/bin/gcc-ar-15"
+      - "/usr/local/bin/gcc-ar-15"
+      - "/usr/bin/gcc-ar-15"
+      - "/usr/local/sbin/gcc-ar-15"
+      - "/usr/sbin/gcc-ar-15"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ar-15"
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ar15"
+      - "/opt/apps/xalt/xalt/bin/gcc-ar15"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ar15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ar15"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ar15"
+      - "/opt/apps/autotools/1.4/bin/gcc-ar15"
+      - "/usr/local/bin/gcc-ar15"
+      - "/usr/bin/gcc-ar15"
+      - "/usr/local/sbin/gcc-ar15"
+      - "/usr/sbin/gcc-ar15"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ar15"
+    found: "/opt/apps/gcc/15.1.0/bin/gcc-ar"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.1"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/opt/apps/gcc/15.1.0/bin/"
+      - "/opt/apps/xalt/xalt/bin/"
+      - "/home1/apps/cmake/4.1.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/"
+      - "/opt/apps/autotools/1.4/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/"
+    searched_directories:
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ranlib-15.1"
+      - "/opt/apps/xalt/xalt/bin/gcc-ranlib-15.1"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ranlib-15.1"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ranlib-15.1"
+      - "/opt/apps/autotools/1.4/bin/gcc-ranlib-15.1"
+      - "/usr/local/bin/gcc-ranlib-15.1"
+      - "/usr/bin/gcc-ranlib-15.1"
+      - "/usr/local/sbin/gcc-ranlib-15.1"
+      - "/usr/sbin/gcc-ranlib-15.1"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ranlib-15.1"
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ranlib-15"
+      - "/opt/apps/xalt/xalt/bin/gcc-ranlib-15"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ranlib-15"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ranlib-15"
+      - "/opt/apps/autotools/1.4/bin/gcc-ranlib-15"
+      - "/usr/local/bin/gcc-ranlib-15"
+      - "/usr/bin/gcc-ranlib-15"
+      - "/usr/local/sbin/gcc-ranlib-15"
+      - "/usr/sbin/gcc-ranlib-15"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ranlib-15"
+      - "/opt/apps/gcc/15.1.0/bin/gcc-ranlib15"
+      - "/opt/apps/xalt/xalt/bin/gcc-ranlib15"
+      - "/home1/apps/cmake/4.1.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/gcc-ranlib15"
+      - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin/gcc-ranlib15"
+      - "/opt/apps/autotools/1.4/bin/gcc-ranlib15"
+      - "/usr/local/bin/gcc-ranlib15"
+      - "/usr/bin/gcc-ranlib15"
+      - "/usr/local/sbin/gcc-ranlib15"
+      - "/usr/sbin/gcc-ranlib15"
+      - "/home1/10971/pressleywelsh524/COE_Homeworks/build/gcc-ranlib15"
+    found: "/opt/apps/gcc/15.1.0/bin/gcc-ranlib"
+    search_context:
+      ENV{CMAKE_PREFIX_PATH}:
+        - "/home1/apps/cmake/4.1.1"
+        - "/scratch/projects/compilers/intel25.1/ccl/2021.15"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/ipp/2022.1"
+        - "/scratch/projects/compilers/intel25.1/ippcp/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/cmake/oneDPL"
+        - "/scratch/projects/compilers/intel25.1/dnnl/2025.1"
+        - "/scratch/projects/compilers/intel25.1/dal/2025.5"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1"
+        - "/scratch/projects/compilers/intel25.1/tbb/2022.1"
+      ENV{PATH}:
+        - "/opt/apps/xalt/xalt/bin"
+        - "/home1/apps/cmake/4.1.1/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/libfabric/bin"
+        - "/scratch/projects/compilers/intel25.1/mpi/2021.15/bin"
+        - "/scratch/projects/compilers/intel25.1/mkl/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/debugger/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/bin"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin/compiler"
+        - "/scratch/projects/compilers/intel25.1/compiler/2025.1/bin"
+        - "/opt/apps/gcc/15.1.0/bin"
+        - "/scratch/projects/compilers/intel24.0/oneapi/intelpython/python3.9/bin"
+        - "/opt/apps/autotools/1.4/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "."
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe"
+      binary: "/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe'
+        
+        Run Build Command(s): /home1/apps/cmake/4.1.1/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0393/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c0393.dir/build.make CMakeFiles/cmTC_c0393.dir/build
+        gmake[1]: Entering directory '/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_c0393.dir/flags.make' has modification time 0.18 s in the future
+        Building CXX object CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/apps/gcc/15.1.0/bin/c++   -v -o CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -c /home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/apps/gcc/15.1.0/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /admin/build/admin/rpms/stampede3/BUILD/gcc-15.1.0/configure --enable-libssp --enable-gold=yes --enable-ld=default --enable-plugins --enable-lto --with-tune=generic --enable-languages=c,c++,fortran --disable-multilib --prefix=/opt/apps/gcc/15.1.0 --with-gmp=/opt/apps/gcc/15.1.0 --with-mlgmp=/opt/apps/gcc/15.1.0 --with-mpfr=/opt/apps/gcc/15.1.0 --with-mpc=/opt/apps/gcc/15.1.0 --with-isl=/opt/apps/gcc/15.1.0
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/'
+         /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0393.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc2vuEFN.s
+        GNU C++17 (GCC) version 15.1.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 15.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /scratch/projects/compilers/intel25.1/ccl/2021.15/include
+         /scratch/projects/compilers/intel25.1/mpi/2021.15/include
+         /scratch/projects/compilers/intel25.1/mkl/2025.1/include
+         /scratch/projects/compilers/intel25.1/ipp/2022.1/include
+         /scratch/projects/compilers/intel25.1/ippcp/2025.1/include
+         /scratch/projects/compilers/intel25.1/dpl/2022.8/include
+         /scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include
+         /scratch/projects/compilers/intel25.1/dnnl/2025.1/include
+         /scratch/projects/compilers/intel25.1/dal/2025.5/include/dal
+         /scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include
+         /scratch/projects/compilers/intel25.1/compiler/2025.1/include
+         /scratch/projects/compilers/intel25.1/tbb/2022.1/include
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/x86_64-pc-linux-gnu
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/backward
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include
+         /usr/local/include
+         /opt/apps/gcc/15.1.0/include
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c9f92c9f1a03c31e2a0fa2f1b449eb1c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/'
+         /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2vuEFN.s
+        GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/
+        LIBRARY_PATH=/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/scratch/projects/compilers/intel25.1/ccl/2021.15/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/lib/:/scratch/projects/compilers/intel25.1/mkl/2025.1/lib/:/scratch/projects/compilers/intel25.1/ipp/2022.1/lib/:/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib/:/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/:/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib/:/scratch/projects/compilers/intel25.1/dal/2025.5/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/lib/:/scratch/projects/compilers/intel25.1/tbb/2022.1/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_c0393
+        /home1/apps/cmake/4.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0393.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/apps/gcc/15.1.0/bin/c++
+        COLLECT_LTO_WRAPPER=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /admin/build/admin/rpms/stampede3/BUILD/gcc-15.1.0/configure --enable-libssp --enable-gold=yes --enable-ld=default --enable-plugins --enable-lto --with-tune=generic --enable-languages=c,c++,fortran --disable-multilib --prefix=/opt/apps/gcc/15.1.0 --with-gmp=/opt/apps/gcc/15.1.0 --with-mlgmp=/opt/apps/gcc/15.1.0 --with-mpfr=/opt/apps/gcc/15.1.0 --with-mpc=/opt/apps/gcc/15.1.0 --with-isl=/opt/apps/gcc/15.1.0
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.1.0 (GCC) 
+        COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/
+        LIBRARY_PATH=/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/scratch/projects/compilers/intel25.1/ccl/2021.15/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/lib/:/scratch/projects/compilers/intel25.1/mkl/2025.1/lib/:/scratch/projects/compilers/intel25.1/ipp/2022.1/lib/:/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib/:/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/:/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib/:/scratch/projects/compilers/intel25.1/dal/2025.5/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/lib/:/scratch/projects/compilers/intel25.1/tbb/2022.1/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0393' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0393.'
+         /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/collect2 -plugin /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/liblto_plugin.so -plugin-opt=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFKPVXt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0393 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0 -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/scratch/projects/compilers/intel25.1/ccl/2021.15/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/lib -L/scratch/projects/compilers/intel25.1/mkl/2025.1/lib -L/scratch/projects/compilers/intel25.1/ipp/2022.1/lib -L/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib -L/scratch/projects/compilers/intel25.1/dpl/2022.8/lib -L/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib -L/scratch/projects/compilers/intel25.1/dal/2025.5/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/lib -L/scratch/projects/compilers/intel25.1/tbb/2022.1/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o /lib/../lib64/crtn.o
+        collect2 version 15.1.0
+        /opt/apps/xalt/xalt/bin/ld -plugin /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/liblto_plugin.so -plugin-opt=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFKPVXt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0393 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0 -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/scratch/projects/compilers/intel25.1/ccl/2021.15/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/lib -L/scratch/projects/compilers/intel25.1/mkl/2025.1/lib -L/scratch/projects/compilers/intel25.1/ipp/2022.1/lib -L/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib -L/scratch/projects/compilers/intel25.1/dpl/2022.8/lib -L/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib -L/scratch/projects/compilers/intel25.1/dal/2025.5/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/lib -L/scratch/projects/compilers/intel25.1/tbb/2022.1/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o /lib/../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0393' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0393.'
+        /opt/apps/gcc/15.1.0/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c0393
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/scratch/projects/compilers/intel25.1/ccl/2021.15/include]
+          add: [/scratch/projects/compilers/intel25.1/mpi/2021.15/include]
+          add: [/scratch/projects/compilers/intel25.1/mkl/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/ipp/2022.1/include]
+          add: [/scratch/projects/compilers/intel25.1/ippcp/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/dpl/2022.8/include]
+          add: [/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/dnnl/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/dal/2025.5/include/dal]
+          add: [/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/compiler/2025.1/include]
+          add: [/scratch/projects/compilers/intel25.1/tbb/2022.1/include]
+          add: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0]
+          add: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/x86_64-pc-linux-gnu]
+          add: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/backward]
+          add: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include]
+          add: [/usr/local/include]
+          add: [/opt/apps/gcc/15.1.0/include]
+          add: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/scratch/projects/compilers/intel25.1/ccl/2021.15/include] ==> [/scratch/projects/compilers/intel25.1/ccl/2021.15/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/mpi/2021.15/include] ==> [/scratch/projects/compilers/intel25.1/mpi/2021.15/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/mkl/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/mkl/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/ipp/2022.1/include] ==> [/scratch/projects/compilers/intel25.1/ipp/2022.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/ippcp/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/ippcp/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/dpl/2022.8/include] ==> [/scratch/projects/compilers/intel25.1/dpl/2022.8/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/dnnl/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/dnnl/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/dal/2025.5/include/dal] ==> [/scratch/projects/compilers/intel25.1/dal/2025.5/include/dal]
+        collapse include dir [/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/compiler/2025.1/include] ==> [/scratch/projects/compilers/intel25.1/compiler/2025.1/include]
+        collapse include dir [/scratch/projects/compilers/intel25.1/tbb/2022.1/include] ==> [/scratch/projects/compilers/intel25.1/tbb/2022.1/include]
+        collapse include dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0] ==> [/opt/apps/gcc/15.1.0/include/c++/15.1.0]
+        collapse include dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/x86_64-pc-linux-gnu] ==> [/opt/apps/gcc/15.1.0/include/c++/15.1.0/x86_64-pc-linux-gnu]
+        collapse include dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/backward] ==> [/opt/apps/gcc/15.1.0/include/c++/15.1.0/backward]
+        collapse include dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include] ==> [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/opt/apps/gcc/15.1.0/include] ==> [/opt/apps/gcc/15.1.0/include]
+        collapse include dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed] ==> [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/scratch/projects/compilers/intel25.1/ccl/2021.15/include;/scratch/projects/compilers/intel25.1/mpi/2021.15/include;/scratch/projects/compilers/intel25.1/mkl/2025.1/include;/scratch/projects/compilers/intel25.1/ipp/2022.1/include;/scratch/projects/compilers/intel25.1/ippcp/2025.1/include;/scratch/projects/compilers/intel25.1/dpl/2022.8/include;/scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include;/scratch/projects/compilers/intel25.1/dnnl/2025.1/include;/scratch/projects/compilers/intel25.1/dal/2025.5/include/dal;/scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include;/scratch/projects/compilers/intel25.1/compiler/2025.1/include;/scratch/projects/compilers/intel25.1/tbb/2022.1/include;/opt/apps/gcc/15.1.0/include/c++/15.1.0;/opt/apps/gcc/15.1.0/include/c++/15.1.0/x86_64-pc-linux-gnu;/opt/apps/gcc/15.1.0/include/c++/15.1.0/backward;/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include;/usr/local/include;/opt/apps/gcc/15.1.0/include;/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home1/apps/cmake/4.1.1/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c0393/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_c0393.dir/build.make CMakeFiles/cmTC_c0393.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home1/10971/pressleywelsh524/COE_Homeworks/build/CMakeFiles/CMakeScratch/TryCompile-tiYEZe']
+        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_c0393.dir/flags.make' has modification time 0.18 s in the future]
+        ignore line: [Building CXX object CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/apps/gcc/15.1.0/bin/c++   -v -o CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -c /home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/apps/gcc/15.1.0/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /admin/build/admin/rpms/stampede3/BUILD/gcc-15.1.0/configure --enable-libssp --enable-gold=yes --enable-ld=default --enable-plugins --enable-lto --with-tune=generic --enable-languages=c,c++,fortran --disable-multilib --prefix=/opt/apps/gcc/15.1.0 --with-gmp=/opt/apps/gcc/15.1.0 --with-mlgmp=/opt/apps/gcc/15.1.0 --with-mpfr=/opt/apps/gcc/15.1.0 --with-mpc=/opt/apps/gcc/15.1.0 --with-isl=/opt/apps/gcc/15.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/']
+        ignore line: [ /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/cc1plus -quiet -v -D_GNU_SOURCE /home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c0393.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc2vuEFN.s]
+        ignore line: [GNU C++17 (GCC) version 15.1.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 15.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /scratch/projects/compilers/intel25.1/ccl/2021.15/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/mpi/2021.15/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/mkl/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/ipp/2022.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/ippcp/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/dpl/2022.8/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/dpcpp-ct/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/dnnl/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/dal/2025.5/include/dal]
+        ignore line: [ /scratch/projects/compilers/intel25.1/dev-utilities/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/compiler/2025.1/include]
+        ignore line: [ /scratch/projects/compilers/intel25.1/tbb/2022.1/include]
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0]
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/x86_64-pc-linux-gnu]
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../include/c++/15.1.0/backward]
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /opt/apps/gcc/15.1.0/include]
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c9f92c9f1a03c31e2a0fa2f1b449eb1c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/']
+        ignore line: [ /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2vuEFN.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.44]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/scratch/projects/compilers/intel25.1/ccl/2021.15/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/lib/:/scratch/projects/compilers/intel25.1/mkl/2025.1/lib/:/scratch/projects/compilers/intel25.1/ipp/2022.1/lib/:/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib/:/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/:/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib/:/scratch/projects/compilers/intel25.1/dal/2025.5/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/lib/:/scratch/projects/compilers/intel25.1/tbb/2022.1/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_c0393]
+        ignore line: [/home1/apps/cmake/4.1.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0393.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/apps/gcc/15.1.0/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /admin/build/admin/rpms/stampede3/BUILD/gcc-15.1.0/configure --enable-libssp --enable-gold=yes --enable-ld=default --enable-plugins --enable-lto --with-tune=generic --enable-languages=c,c++,fortran --disable-multilib --prefix=/opt/apps/gcc/15.1.0 --with-gmp=/opt/apps/gcc/15.1.0 --with-mlgmp=/opt/apps/gcc/15.1.0 --with-mpfr=/opt/apps/gcc/15.1.0 --with-mpc=/opt/apps/gcc/15.1.0 --with-isl=/opt/apps/gcc/15.1.0]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/opt/apps/xalt/xalt/bin/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/scratch/projects/compilers/intel25.1/ccl/2021.15/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib/:/scratch/projects/compilers/intel25.1/mpi/2021.15/lib/:/scratch/projects/compilers/intel25.1/mkl/2025.1/lib/:/scratch/projects/compilers/intel25.1/ipp/2022.1/lib/:/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib/:/scratch/projects/compilers/intel25.1/dpl/2022.8/lib/:/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib/:/scratch/projects/compilers/intel25.1/dal/2025.5/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib/:/scratch/projects/compilers/intel25.1/compiler/2025.1/lib/:/scratch/projects/compilers/intel25.1/tbb/2022.1/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib/:/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c0393' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c0393.']
+        link line: [ /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/collect2 -plugin /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/liblto_plugin.so -plugin-opt=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFKPVXt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0393 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0 -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/scratch/projects/compilers/intel25.1/ccl/2021.15/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/lib -L/scratch/projects/compilers/intel25.1/mkl/2025.1/lib -L/scratch/projects/compilers/intel25.1/ipp/2022.1/lib -L/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib -L/scratch/projects/compilers/intel25.1/dpl/2022.8/lib -L/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib -L/scratch/projects/compilers/intel25.1/dal/2025.5/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/lib -L/scratch/projects/compilers/intel25.1/tbb/2022.1/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccFKPVXt.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c0393] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o] ==> obj [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o]
+          arg [-L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0] ==> dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0]
+          arg [-L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64] ==> dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/scratch/projects/compilers/intel25.1/ccl/2021.15/lib] ==> dir [/scratch/projects/compilers/intel25.1/ccl/2021.15/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib] ==> dir [/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/mpi/2021.15/lib] ==> dir [/scratch/projects/compilers/intel25.1/mpi/2021.15/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/mkl/2025.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/mkl/2025.1/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/ipp/2022.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/ipp/2022.1/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/dpl/2022.8/lib] ==> dir [/scratch/projects/compilers/intel25.1/dpl/2022.8/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/dal/2025.5/lib] ==> dir [/scratch/projects/compilers/intel25.1/dal/2025.5/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib] ==> dir [/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/compiler/2025.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/compiler/2025.1/lib]
+          arg [-L/scratch/projects/compilers/intel25.1/tbb/2022.1/lib] ==> dir [/scratch/projects/compilers/intel25.1/tbb/2022.1/lib]
+          arg [-L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib]
+          arg [-L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../..] ==> dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o] ==> obj [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        ignore line: [collect2 version 15.1.0]
+        ignore line: [/opt/apps/xalt/xalt/bin/ld -plugin /opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/liblto_plugin.so -plugin-opt=/opt/apps/gcc/15.1.0/libexec/gcc/x86_64-pc-linux-gnu/15.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFKPVXt.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_c0393 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0 -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/scratch/projects/compilers/intel25.1/ccl/2021.15/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib -L/scratch/projects/compilers/intel25.1/mpi/2021.15/lib -L/scratch/projects/compilers/intel25.1/mkl/2025.1/lib -L/scratch/projects/compilers/intel25.1/ipp/2022.1/lib -L/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib -L/scratch/projects/compilers/intel25.1/dpl/2022.8/lib -L/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib -L/scratch/projects/compilers/intel25.1/dal/2025.5/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib -L/scratch/projects/compilers/intel25.1/compiler/2025.1/lib -L/scratch/projects/compilers/intel25.1/tbb/2022.1/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib -L/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c0393.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o /lib/../lib64/crtn.o]
+        linker tool for 'CXX': /opt/apps/xalt/xalt/bin/ld
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0] ==> [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0]
+        collapse library dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../lib64] ==> [/opt/apps/gcc/15.1.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/scratch/projects/compilers/intel25.1/ccl/2021.15/lib] ==> [/scratch/projects/compilers/intel25.1/ccl/2021.15/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib] ==> [/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/mpi/2021.15/lib] ==> [/scratch/projects/compilers/intel25.1/mpi/2021.15/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/mkl/2025.1/lib] ==> [/scratch/projects/compilers/intel25.1/mkl/2025.1/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/ipp/2022.1/lib] ==> [/scratch/projects/compilers/intel25.1/ipp/2022.1/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib] ==> [/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/dpl/2022.8/lib] ==> [/scratch/projects/compilers/intel25.1/dpl/2022.8/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib] ==> [/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/dal/2025.5/lib] ==> [/scratch/projects/compilers/intel25.1/dal/2025.5/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib] ==> [/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/compiler/2025.1/lib] ==> [/scratch/projects/compilers/intel25.1/compiler/2025.1/lib]
+        collapse library dir [/scratch/projects/compilers/intel25.1/tbb/2022.1/lib] ==> [/scratch/projects/compilers/intel25.1/tbb/2022.1/lib]
+        collapse library dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../../../x86_64-pc-linux-gnu/lib] ==> [/opt/apps/gcc/15.1.0/x86_64-pc-linux-gnu/lib]
+        collapse library dir [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/../../..] ==> [/opt/apps/gcc/15.1.0/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtbegin.o;/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/opt/apps/gcc/15.1.0/lib/gcc/x86_64-pc-linux-gnu/15.1.0;/opt/apps/gcc/15.1.0/lib64;/lib64;/usr/lib64;/scratch/projects/compilers/intel25.1/ccl/2021.15/lib;/scratch/projects/compilers/intel25.1/mpi/2021.15/opt/mpi/libfabric/lib;/scratch/projects/compilers/intel25.1/mpi/2021.15/lib;/scratch/projects/compilers/intel25.1/mkl/2025.1/lib;/scratch/projects/compilers/intel25.1/ipp/2022.1/lib;/scratch/projects/compilers/intel25.1/ippcp/2025.1/lib;/scratch/projects/compilers/intel25.1/dpl/2022.8/lib;/scratch/projects/compilers/intel25.1/dnnl/2025.1/lib;/scratch/projects/compilers/intel25.1/dal/2025.5/lib;/scratch/projects/compilers/intel25.1/compiler/2025.1/opt/compiler/lib;/scratch/projects/compilers/intel25.1/compiler/2025.1/lib;/scratch/projects/compilers/intel25.1/tbb/2022.1/lib;/opt/apps/gcc/15.1.0/x86_64-pc-linux-gnu/lib;/opt/apps/gcc/15.1.0/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/home1/apps/cmake/4.1.1/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/opt/apps/xalt/xalt/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.44
+...
