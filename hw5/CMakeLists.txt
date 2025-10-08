@@ -1,16 +1,9 @@
-cmake_minimum_required(VERSION 3.16)
-project(hw5 LANGUAGES CXX)
+cmake_minimum_required( VERSION 3.20 )
+project( hw5 VERSION 1.0 )
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)
+message( "Using sources: hw5.cpp" )
+add_executable( hw5 )
+target_sources( hw5 PRIVATE hw5.cpp )
 
-if (MSVC)
-  add_compile_options(/W4 /permissive-)
-else()
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
-
-add_executable(hw5
-  hw5.cpp
-)
+target_compile_features( hw5 PRIVATE cxx_std_23 )
+install( TARGETS hw5 DESTINATION . )
