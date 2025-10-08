@@ -1,5 +1,4 @@
 #include <iostream>
-#include <print>
 using namespace std;
 bool isprime(int n){
         bool prime = true;
@@ -27,13 +26,13 @@ public :
 			test+=1;
 		}
 		prime=test;
+		num+=1;
 		return prime;
 	}
-	num+=1;
-		
 };
 
 int main(){
+	int nprimes;
 	cin >> nprimes;
 	primegenerator sequence;
 	while (sequence.number_of_primes_found()<nprimes) {
