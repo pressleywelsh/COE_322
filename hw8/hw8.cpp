@@ -7,6 +7,7 @@ private:
         int rows;
         int cols;
 	int *data;
+	//each variable needed for class
 public:
 	storage2d(int r, int c) {
 		rows = r;
@@ -19,15 +20,18 @@ public:
 	int get(int i, int j){
 		return data[i*cols+j];
 	}
+	//get returns the value at the place they call
 	void set(int i, int j, int num){
 		data[i*cols+j] = num;
 	}
+	//set changes the value at the place they call
 };
 class pascal {
 private:
 	int n;
 	int mod;
 	storage2d a;
+	//each variable needed for class
 public:
 	pascal(int num, int m=0) : n(num), mod(m), a(num, num) {
 		for (int r=0;r<n;r++){
@@ -46,6 +50,7 @@ public:
 			}
 		}
 	}
+	//builds the pascal triangle 
 	int getvalue(int i,int j){
 		if ((i<1) or (i>n)){
 			return (0);
@@ -55,6 +60,7 @@ public:
 		}
 		return a.get(i-1,j-1);
 	}
+	//gets the value at the location called
 	void print(){
 		int w=4;
 		for (int i=1; i<=n; i++){
@@ -68,6 +74,7 @@ public:
 			printf("\n");
 		}
 	}
+	//prints the value at the location called
 };
 int main(int argc, char** argv){
 	int n=9;
@@ -77,16 +84,22 @@ int main(int argc, char** argv){
 		("h,help", "Show help")
 		("n,size", "Number of rows", cxxopts::value<int>()->default_value("9"))
 		("m,module", "Modulus (0 = none)", cxxopts::value<int>()->default_value("0"));
+	//adds options for cxxopts
 	auto result = options.parse(argc, argv);
+	//parses the result
 	if (result.count("help")) {
 		printf("Usage: your_pascal_program [ -h ] [ -n size ] [ -m module ]\n\n");
 		printf("%s\n", options.help().c_str());
 		return 0;
 	}
+	//for help option, exits program
 	n = result["size"].as<int>();
 	mod = result["module"].as<int>();
 	pascal pyr(n,mod);
+	//builds pyramid
 	printf("Row 7, Col 3 = %d\n", pyr.getvalue(7, 3));
+	//calls get for row 7, col 3
 	pyr.print();
+	//prints the pyramid
 	return 0;
 }
