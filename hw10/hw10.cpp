@@ -7,14 +7,14 @@ using std::shared_ptr;
 using std::make_shared;
 using std::unique_ptr;
 using std::make_unique;
-class point {
+class Point {
 private: 
 	//x and y variables
 	double x;
 	double y;
 public: 
 	//constructs point
-	point(double x1, double y1) {
+	Point(double x1, double y1) {
 		x=x1;
 		y=y1;
 	}
@@ -43,7 +43,7 @@ class DynRectangle {
 private: 
 	//bottom left point
 	shared_ptr<Point> bottom;
-	//bottom right point
+	//top right point
 	shared_ptr<Point> top;
 public:
        //constructs rectangle	
@@ -69,14 +69,14 @@ int main( int argc,char** argv ) {
 	cxxopts::Options options("dynrectangle","Compute areas of two rectangles");
 	options.add_options()
 		("h,help", "Show help")
-		("p, point_p", "bottom left of rect1: (px,py)", cxxopts::value<std::vector<double>>->default_value("0,0"))
-		("q, point_q", "shared corner: (qx,qy)", cxxopts::value<std::vector<double>>->default_value("2,2"))
-		("r, point_r", "top right of rect2: (rx,ry)", cxxopts::value<std::vector<double>>->default_value("4,4"))
-		("m, shift", "shift, point m: (mx,my)", cxxopts::value<std::vector<double>>->default_value("3,3"));
+		("p,point_p", "bottom left of rect1: (px,py)", cxxopts::value<std::vector<double>>()->default_value("0,0"))
+		("q,point_q", "shared corner: (qx,qy)", cxxopts::value<std::vector<double>>()->default_value("2,2"))
+		("r,point_r", "top right of rect2: (rx,ry)", cxxopts::value<std::vector<double>>()->default_value("4,4"))
+		("m,shift", "shift, point m: (mx,my)", cxxopts::value<std::vector<double>>()->default_value("3,3"));
 	auto result = options.parse(argc, argv);
 	//help option
 	if ( result.count("h") ) {
-		cout << options.help() << '\n';
+		std::cout << options.help() << '\n';
 	}
 	//read results
 	auto P = result["point_p"].as<std::vector<double>>();
@@ -93,7 +93,7 @@ int main( int argc,char** argv ) {
 	//print area before shift
 	std::printf("Before: A1=%.3f  A2=%.3f\n", rect1.area(), rect2.area());
 	//shift point
-	Qpt=setx(Qpt->getx() + M[0]);
+	Qpt->setx(Qpt->getx() + M[0]);
 	Qpt->sety(Qpt->gety() + M[1]);
 	//print after shift
 	std::printf("After:  A1=%.3f  A2=%.3f\n", rect1.area(), rect2.area());
