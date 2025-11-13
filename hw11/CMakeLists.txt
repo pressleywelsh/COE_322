@@ -11,15 +11,15 @@ find_package( PkgConfig REQUIRED )
 pkg_check_modules( CATCH2 REQUIRED catch2-with-main )
 target_include_directories(
 	linktests PUBLIC
-	
+	${CATCH2_INCLUDE_DIRS}
 	)
 target_link_directories(
 	linktests PUBLIC
-	
+	${CATCH2_LIBRARY_DIRS}
 	)
 target_link_libraries(
 	linktests PUBLIC
-	
+	${CATCH2_LIBRARIES}
 	)
 
 install( TARGETS linktests DESTINATION . )
