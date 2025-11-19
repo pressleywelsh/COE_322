@@ -60,7 +60,7 @@ TEST_CASE( "D = 0" ) {
 	auto r = simple_root(coefficients);
 	REQUIRE( evaluate(coefficients,r)==Catch::Approx(0.).margin(1.e-14) );
 	//  REQUIRE( evaluate(coefficients,r) ==Catch::Approx(0.) );
-}
+	}
 
 TEST_CASE( "D != 0" ) {
 	double a,b,c,d; bool z;
