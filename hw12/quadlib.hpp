@@ -1,6 +1,6 @@
 #include <tuple>
 #include <variant>
-usind std::tuple;
+using std::tuple;
 using std::pair;
 using std::variant;
 using quadratic = tuple<double, double, double>;
@@ -9,4 +9,5 @@ bool discriminant_zero(quadratic);
 double simple_root(quadratic);
 double evaluate(quadratic, double);
 pair<double,double> double_root(quadratic);
-variant<Type0, Type1, Type2>;
+variant<int, double, pair<double,double>>;
+//all functions to be defined later
