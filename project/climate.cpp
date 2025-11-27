@@ -70,9 +70,10 @@ void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousReco
 int main(){
 	vector<int> nyears;
 	vector<int> monthly_deviation;
-	vector<int> previous_record(monthly_deviation.size());
 	//GLB_clean.txt is GLB.Ts+dSST.txt after using grep
 	readFile("GLB_monthly.txt", nyears, monthly_deviation);
 	cout << "Read " << nyears.size() << " years"<<endl;
-	std::cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
+	cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
+	vector<int> previous_record(monthly_deviation.size());
+	prevRecord(nyears, monthly_deviation, nyears);
 }
