@@ -2,12 +2,13 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include "climate.hpp"
 using std::vector;
 using std::string;
 using std::ifstream;
 using std::cout;
 using std::endl;
-void readFile( string fileName, vector<int>& nyears, vector<double>& dev){
+void readFile( string fileName, vector<int>& nyears, vector<int>& dev){
 	ifstream fin;
 	fin.open(fileName);
 	if (fin.is_open()) {
@@ -25,10 +26,10 @@ void readFile( string fileName, vector<int>& nyears, vector<double>& dev){
 					break;
 				}
 			}
-			if (count < 12) {
-				nyears.pop_back();
-			if (count<11){
-
+			if (count<12){
+				nyears.resize(nyears.size() - 1);
+				dev.resize(dev.size() - count);
+			}
 		}
 	}
 	else{
@@ -37,11 +38,41 @@ void readFile( string fileName, vector<int>& nyears, vector<double>& dev){
 	}
 	fin.close();
 }
+void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousRecord){
+	int index;
+	int recordDev;
+	int recordYear;
+	int currentDev;
+	int currentYear;
+	for (int month=0; month<12;month++){
+		for (int year=0;year<nyears.size();year++){
+			index=(12*year)+month;
+			currentDev = dev[index];
+			currentYear = nyears[year];
+			if (year==0){
+				recordYear=nyears[year];
+				recordDev=currentDev;
+				previousRecord[index]=recordYear;
+			}
+			if (year>0){
+				if (currentDev>recordDev){
+					recordDev=currentDev;
+					recordYear=currentYear;
+					previousRecord[index]=recordYear;
+				}
+				else{
+					previousRecord[index]=recordYear;
+				}
+			}
+		}
+	}
+}
 int main(){
 	vector<int> nyears;
-	vector<double> dev;
+	vector<int> monthly_deviation;
+	vector<int> previous_record(monthly_deviation.size());
 	//GLB_clean.txt is GLB.Ts+dSST.txt after using grep
-	readFile("GLB_monthly.txt", nyears, dev);
-	cout << "Read " << nyears.size() << " years\n";
-	std::cout << "Read " << dev.size() << " monthly deviations\n";
+	readFile("GLB_monthly.txt", nyears, monthly_deviation);
+	cout << "Read " << nyears.size() << " years"<<endl;
+	std::cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
 }
