@@ -67,6 +67,29 @@ void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousReco
 		}
 	}
 }
+void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<int>& gapyears, vector<int>& gapsizes){
+	gapyears.clear();
+	gapsizes.clear();
+	vector<int> recordYear;
+	int lastRec=0;
+	bool haveRec=false;
+	int numGaps=0;
+	for (int year=0; year<(nyears.size());year++){
+		int index=(12*year)+month;
+		if (previousRecord[index] == nyears[year]){
+			if (!haveRec){
+				haveRec=true;
+				lastRec=nyears[year];
+			}
+			else{
+				gapyears[numGaps]=d;
+				gapsizes[numGaps]=f;
+				numGaps+=1;
+				lastRec=nyears[year];
+			}
+		}
+	}
+}
 int main(){
 	vector<int> nyears;
 	vector<int> monthly_deviation;
