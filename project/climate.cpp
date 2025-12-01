@@ -68,8 +68,6 @@ void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousReco
 	}
 }
 void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<int>& gapyears, vector<int>& gapsizes){
-	gapyears.clear();
-	gapsizes.clear();
 	vector<int> recordYear;
 	int lastRec=0;
 	bool haveRec=false;
@@ -82,8 +80,8 @@ void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<in
 				lastRec=nyears[year];
 			}
 			else{
-				gapyears[numGaps]=d;
-				gapsizes[numGaps]=f;
+				gapyears[numGaps]=lastRec;
+				gapsizes[numGaps]=currentYear - lastRec;
 				numGaps+=1;
 				lastRec=nyears[year];
 			}
@@ -99,4 +97,9 @@ int main(){
 	cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
 	vector<int> previous_record(monthly_deviation.size());
 	prevRecord(nyears, monthly_deviation, previous_record);
+	vector<int> gapyears(nyears.size());
+	vector<int> gapsizes(nyears.size());
+	for (int month=0;month<12;month++){
+		gaps(month, nyears, previous_record, gapyears, gapsizes);
+		cout << "Month " << month << " gaps"<<endl;
 }
