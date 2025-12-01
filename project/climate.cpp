@@ -13,7 +13,7 @@ void readFile( string fileName, vector<int>& nyears, vector<int>& dev){
 	fin.open(fileName);
 	if (fin.is_open()) {
 		int year;
-		double num;
+		int num;
 		while (fin >> year) {
 			nyears.push_back(year);
 			int count = 0;
@@ -75,5 +75,5 @@ int main(){
 	cout << "Read " << nyears.size() << " years"<<endl;
 	cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
 	vector<int> previous_record(monthly_deviation.size());
-	prevRecord(nyears, monthly_deviation, nyears);
+	prevRecord(nyears, monthly_deviation, previous_record);
 }
