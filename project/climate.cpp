@@ -70,7 +70,8 @@ void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousReco
 void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<int>& gapyears, vector<int>& gapsizes){
 	int lastRec=0;
 	bool haveRec=false;
-	int numGaps=0;
+	gapyears.clear();
+	gapsizes.clear();
 	for (int year=0; year<(nyears.size());year++){
 		int index=(12*year)+month;
 		if (previousRecord[index] == nyears[year]){
@@ -79,13 +80,15 @@ void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<in
 				lastRec=nyears[year];
 			}
 			else{
-				gapyears[numGaps]=lastRec;
-				gapsizes[numGaps]=nyears[year] - lastRec;
-				numGaps+=1;
+				gapyears.push_back(lastRec);
+				gapsizes.push_back(nyears[year] - lastRec);
 				lastRec=nyears[year];
 			}
 		}
 	}
+}
+void linearFunc(vector<int>& x, vector<int>& y, double& m, double& b){
+	f
 }
 int main(){
 	vector<int> nyears;
