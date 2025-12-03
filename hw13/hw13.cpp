@@ -23,5 +23,5 @@ int main(){
 		([sumDivisors] (int n){
 		 return ((sumDivisors(n))==n); } );
 	rng::for_each
-		(perfNums, [], (int n) { cout << n << endl; } );
+		(perfNums, [] (int n) { cout << n << endl; } );
 }
