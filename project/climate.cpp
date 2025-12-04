@@ -38,14 +38,14 @@ void readFile( string fileName, vector<int>& nyears, vector<int>& dev){
 	}
 	fin.close();
 }
-void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousRecord){
+void prevRecord(vector<int> nyears, vector<int> dev, vector<int>& previousRecord){
 	int index;
 	int recordDev;
 	int recordYear;
 	int currentDev;
 	int currentYear;
 	for (int month=0; month<12;month++){
-		for (int year=0;year<nyears.size();year++){
+		for (size_t year=0;year<nyears.size();year++){
 			index=(12*year)+month;
 			currentDev = dev[index];
 			currentYear = nyears[year];
@@ -67,12 +67,12 @@ void prevRecord(vector<int>& nyears, vector<int>& dev, vector<int>& previousReco
 		}
 	}
 }
-void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<int>& gapyears, vector<int>& gapsizes){
+void gaps(int month, vector<int> nyears, vector<int> previousRecord, vector<int>& gapyears, vector<int>& gapsizes){
 	int lastRec=0;
 	bool haveRec=false;
 	gapyears.clear();
 	gapsizes.clear();
-	for (int year=0; year<(nyears.size());year++){
+	for (size_t year=0; year<(nyears.size());year++){
 		int index=(12*year)+month;
 		if (previousRecord[index] == nyears[year]){
 			if (!haveRec){
@@ -87,8 +87,21 @@ void gaps(int month, vector<int>& nyears, vector<int>& previousRecord, vector<in
 		}
 	}
 }
-void linearFunc(vector<int>& x, vector<int>& y, double& m, double& b){
-	f
+void linearFunc(vector<int> x, vector<int> y, double& m, double& b){
+	double s = x.size();
+	double sx = 0;
+	double sxx=0;
+	double sxy=0;
+	double sy=0;
+	for (size_t i = 0; i < x.size(); ++i) {
+		sx+=x[i];
+		sxx+=(x[i]*x[i]);
+		sy+=y[i];
+		sxy+=(x[i]*y[i]);
+	}
+	double delta = (s * sxx) - (sx * sx);
+	m = ((s * sxy)-(sx * sy))/delta;
+	b = ((sxx * sy) - (sx * sxy))/delta;
 }
 int main(){
 	vector<int> nyears;
@@ -103,6 +116,6 @@ int main(){
 	vector<int> gapsizes(nyears.size());
 	for (int month=0;month<12;month++){
 		gaps(month, nyears, previous_record, gapyears, gapsizes);
-		cout << "Month " << month << " gaps"<<endl;
+		cout << "Month " << month << " gaps" <<endl;
 	}
 }
