@@ -116,6 +116,13 @@ int main(){
 	vector<int> gapsizes(nyears.size());
 	for (int month=0;month<12;month++){
 		gaps(month, nyears, previous_record, gapyears, gapsizes);
-		cout << "Month " << month << " gaps" <<endl;
+		cout << "Month " << month << " gaps:" <<endl;
+		for (size_t i = 0; i < gapyears.size(); ++i) {
+			cout << "  from " << gapyears[i] << " gap of " << gapsizes[i] << " years" << endl;
+		}
 	}
+	//62.5 code:
+	double m=0.0;
+	double b=0.0;
+	linearFunc(nyears, 
 }
