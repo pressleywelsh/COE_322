@@ -2,12 +2,14 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <ranges>
 #include "climate.hpp"
 using std::vector;
 using std::string;
 using std::ifstream;
 using std::cout;
 using std::endl;
+namespace rng = std::ranges;
 void readFile( string fileName, vector<int>& nyears, vector<int>& dev){
 	ifstream fin;
 	fin.open(fileName);
@@ -124,5 +126,17 @@ int main(){
 	//62.5 code:
 	double m=0.0;
 	double b=0.0;
-	linearFunc(nyears, 
+	for (int month : rng::views::iota(0, 12)) {
+		vector<int> x;
+		vector<int> y;
+		int i=0;
+		for (int year : nyears) {
+			x.push_back(i);
+			int index = 12+ (i * month);
+			y.push_back(monthly_deviation[index]);
+			i+=1;
+		}
+		linearFunc(x, y, m, b);
+		cout << "Month: " << month << " trend: deviation = " << m << " * t " << b << endl;
+	}
 }
