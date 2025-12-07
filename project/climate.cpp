@@ -108,8 +108,8 @@ void linearFunc(vector<int> x, vector<int> y, double& m, double& b){
 int main(){
 	vector<int> nyears;
 	vector<int> monthly_deviation;
-	//GLB_clean.txt is GLB.Ts+dSST.txt after using grep
-	readFile("GLB_monthly.txt", nyears, monthly_deviation);
+	//GLB.Ts+dSST_clean.txt is GLB.Ts+dSST.txt after using grep
+	readFile("GLB.Ts+dSST_clean.txt", nyears, monthly_deviation);
 	cout << "Read " << nyears.size() << " years"<<endl;
 	cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
 	vector<int> previous_record(monthly_deviation.size());
