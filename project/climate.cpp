@@ -122,6 +122,17 @@ int main(){
 		for (size_t i = 0; i < gapyears.size(); ++i) {
 			cout << "  from " << gapyears[i] << " gap of " << gapsizes[i] << " years" << endl;
 		}
+		int numGaps = gapsizes.size();
+		vector<int> xgap;
+		vector<int> ygap;
+		for (int i : rng::views::iota(0, numGaps)) {
+			xgap.push_back(i+1);
+			ygap.push_back(gapsizes[i]);
+		}
+		double mgap=0.0;
+		double bgap=0.0;
+		linearFunc(xgap, ygap, mgap, bgap);
+		cout << "Regression: gap size = " << mgap << " * recordIndex + " << bgap << endl;
 	}
 	//62.5 code:
 	double m=0.0;
@@ -136,6 +147,6 @@ int main(){
 			y.push_back(monthly_deviation[index]);
 		}
 		linearFunc(x, y, m, b);
-		cout << "Month: " << month << " trend: deviation = " << m << " * t " << b << endl;
+		cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
 	}
 }
