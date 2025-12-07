@@ -152,14 +152,13 @@ int main(){
 			linearFunc(x, y, m, b);
 			cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
 		}
-		cout << "=== End of GLB.Ts_clean+dSST.txt analysis ===" <<endl;
+		cout << "=== End of GLB.Ts+dSST_clean.txt analysis ===" <<endl;
 	}
 	//Second file:
 	{
 		vector<int> nyears;
                 vector<int> monthly_deviation;
                 //GLB.Ts_clean.txt is GLB.Ts.txt after using grep
-                //first file:
                 cout << "=== Analysis for GLB.Ts_clean.txt ===" << endl;
                 readFile("GLB.Ts_clean.txt", nyears, monthly_deviation);
                 cout << "Read " << nyears.size() << " years"<<endl;
