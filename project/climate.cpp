@@ -126,15 +126,14 @@ int main(){
 	//62.5 code:
 	double m=0.0;
 	double b=0.0;
-	for (int month : rng::views::iota(0, 12)) {
+	int nYears = nyears.size();
+	for (int month=0;month<12;month++) {
 		vector<int> x;
 		vector<int> y;
-		int i=0;
-		for (int year : nyears) {
+		for (int i : rng::views::iota(0, nYears)) {
 			x.push_back(i);
-			int index = 12+ (i * month);
+			int index = (12 * i) + month;
 			y.push_back(monthly_deviation[index]);
-			i+=1;
 		}
 		linearFunc(x, y, m, b);
 		cout << "Month: " << month << " trend: deviation = " << m << " * t " << b << endl;
