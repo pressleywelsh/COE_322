@@ -106,47 +106,101 @@ void linearFunc(vector<int> x, vector<int> y, double& m, double& b){
 	b = ((sxx * sy) - (sx * sxy))/delta;
 }
 int main(){
-	vector<int> nyears;
-	vector<int> monthly_deviation;
-	//GLB.Ts+dSST_clean.txt is GLB.Ts+dSST.txt after using grep
-	readFile("GLB.Ts+dSST_clean.txt", nyears, monthly_deviation);
-	cout << "Read " << nyears.size() << " years"<<endl;
-	cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
-	vector<int> previous_record(monthly_deviation.size());
-	prevRecord(nyears, monthly_deviation, previous_record);
-	vector<int> gapyears(nyears.size());
-	vector<int> gapsizes(nyears.size());
-	for (int month=0;month<12;month++){
-		gaps(month, nyears, previous_record, gapyears, gapsizes);
-		cout << "Month " << month << " gaps:" <<endl;
-		for (size_t i = 0; i < gapyears.size(); ++i) {
-			cout << "  from " << gapyears[i] << " gap of " << gapsizes[i] << " years" << endl;
+	{
+		vector<int> nyears;
+		vector<int> monthly_deviation;
+		//GLB.Ts+dSST_clean.txt is GLB.Ts+dSST.txt after using grep
+		//first file:
+		cout << "=== Analysis for GLB.Ts+dSST_clean.txt ===" << endl;
+		readFile("GLB.Ts+dSST_clean.txt", nyears, monthly_deviation);
+		cout << "Read " << nyears.size() << " years"<<endl;
+		cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
+		vector<int> previous_record(monthly_deviation.size());
+		prevRecord(nyears, monthly_deviation, previous_record);
+		vector<int> gapyears(nyears.size());
+		vector<int> gapsizes(nyears.size());
+		for (int month=0;month<12;month++){
+			gaps(month, nyears, previous_record, gapyears, gapsizes);
+			cout << "Month " << month << " gaps:" <<endl;
+			for (size_t i = 0; i < gapyears.size(); ++i) {
+				cout << "  from " << gapyears[i] << " gap of " << gapsizes[i] << " years" << endl;
+			}
+			int numGaps = gapsizes.size();
+			vector<int> xgap;
+			vector<int> ygap;
+			for (int i : rng::views::iota(0, numGaps)) {
+				xgap.push_back(i+1);
+				ygap.push_back(gapsizes[i]);
+			}
+			double mgap=0.0;
+			double bgap=0.0;
+			linearFunc(xgap, ygap, mgap, bgap);
+			cout << "Regression: gap size = " << mgap << " * recordIndex + " << bgap << endl;
 		}
-		int numGaps = gapsizes.size();
-		vector<int> xgap;
-		vector<int> ygap;
-		for (int i : rng::views::iota(0, numGaps)) {
-			xgap.push_back(i+1);
-			ygap.push_back(gapsizes[i]);
+		//62.5 code for GLB.Ts_clean+dSST:
+		double m=0.0;
+		double b=0.0;
+		int nYears = nyears.size();
+		for (int month=0;month<12;month++) {
+			vector<int> x;
+			vector<int> y;
+			for (int i : rng::views::iota(0, nYears)) {
+				x.push_back(i);
+				int index = (12 * i) + month;
+				y.push_back(monthly_deviation[index]);
+			}
+			linearFunc(x, y, m, b);
+			cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
 		}
-		double mgap=0.0;
-		double bgap=0.0;
-		linearFunc(xgap, ygap, mgap, bgap);
-		cout << "Regression: gap size = " << mgap << " * recordIndex + " << bgap << endl;
+		cout << "=== End of GLB.Ts_clean+dSST.txt analysis ===" <<endl;
 	}
-	//62.5 code:
-	double m=0.0;
-	double b=0.0;
-	int nYears = nyears.size();
-	for (int month=0;month<12;month++) {
-		vector<int> x;
-		vector<int> y;
-		for (int i : rng::views::iota(0, nYears)) {
-			x.push_back(i);
-			int index = (12 * i) + month;
-			y.push_back(monthly_deviation[index]);
-		}
-		linearFunc(x, y, m, b);
-		cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
+	//Second file:
+	{
+		vector<int> nyears;
+                vector<int> monthly_deviation;
+                //GLB.Ts_clean.txt is GLB.Ts.txt after using grep
+                //first file:
+                cout << "=== Analysis for GLB.Ts_clean.txt ===" << endl;
+                readFile("GLB.Ts_clean.txt", nyears, monthly_deviation);
+                cout << "Read " << nyears.size() << " years"<<endl;
+                cout << "Read " << monthly_deviation.size() << " monthly deviations"<<endl;
+                vector<int> previous_record(monthly_deviation.size());
+                prevRecord(nyears, monthly_deviation, previous_record);
+                vector<int> gapyears(nyears.size());
+                vector<int> gapsizes(nyears.size());
+                for (int month=0;month<12;month++){
+                        gaps(month, nyears, previous_record, gapyears, gapsizes);
+                        cout << "Month " << month << " gaps:" <<endl;
+                        for (size_t i = 0; i < gapyears.size(); ++i) {
+                                cout << "  from " << gapyears[i] << " gap of " << gapsizes[i] << " years" << endl;
+                        }
+                        int numGaps = gapsizes.size();
+                        vector<int> xgap;
+                        vector<int> ygap;
+                        for (int i : rng::views::iota(0, numGaps)) {
+                                xgap.push_back(i+1);
+                                ygap.push_back(gapsizes[i]);
+                        }
+                        double mgap=0.0;
+                        double bgap=0.0;
+                        linearFunc(xgap, ygap, mgap, bgap);
+                        cout << "Regression: gap size = " << mgap << " * recordIndex + " << bgap << endl;
+                }
+		//62.5 code for GLB.Ts_clean:
+                double m=0.0;
+                double b=0.0;
+                int nYears = nyears.size();
+                for (int month=0;month<12;month++) {
+                        vector<int> x;
+                        vector<int> y;
+                        for (int i : rng::views::iota(0, nYears)) {
+                                x.push_back(i);
+                                int index = (12 * i) + month;
+                                y.push_back(monthly_deviation[index]);
+                        }
+                        linearFunc(x, y, m, b);
+                        cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
+                }
+                cout << "=== End of GLB.Ts_clean.txt analysis ===" <<endl;
 	}
 }
