@@ -150,7 +150,7 @@ int main(){
 				y.push_back(monthly_deviation[index]);
 			}
 			linearFunc(x, y, m, b);
-			cout << "Month: " << month << " trend: deviation = " << m << " * t + " << b << endl;
+			cout << "Month " << month << " trend: deviation = " << m << " * t + " << b << endl;
 		}
 		cout << "=== End of GLB.Ts+dSST_clean.txt analysis ===" <<endl;
 	}
@@ -198,7 +198,7 @@ int main(){
                                 y.push_back(monthly_deviation[index]);
                         }
                         linearFunc(x, y, m, b);
-                        cout << "Month " << month << ": trend: deviation = " << m << " * t + " << b << endl;
+                        cout << "Month " << month << " trend: deviation = " << m << " * t + " << b << endl;
                 }
                 cout << "=== End of GLB.Ts_clean.txt analysis ===" <<endl;
 	}
