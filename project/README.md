@@ -11,8 +11,7 @@
   TACC: pressleywelsh524 
   
 ## Project Description 
-This C++ program analyzes 145 years of global temperature data (1880-2025) to test 
-1) if climate change has a stationary distribution and 2) for global warming trends. Using linear 
+This C++ program analyzes 145 years of global temperature data (1880-2025) to test if climate change has a stationary distribution and for global warming trends. Using linear 
 regression on two datasets (Land-Ocean and Global Station), the program tests whether all
 calendar months show coordinated warming trends and the frequency at which temperature
 records are broken with increasing frequency.
