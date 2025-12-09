@@ -26,9 +26,6 @@ See ClimateChangeDataAnalysis.pdf for an in-depth analysis
 - CMakeLists.txt
 - GLB.Ts+dSST_clean.txt (Land-Ocean dataset)
 - GLB.Ts+Ts_clean.txt (Global Station dataset)
-- GLB.Ts+dSST.txt (Land-Ocean dataset before grep)
-- GLB.Ts.txt (Land-Ocean dataset before grep)
-
 
 ## Compilation
 Use the provided CMakeLists.txt to compile the project.
