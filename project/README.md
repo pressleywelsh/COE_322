@@ -14,7 +14,7 @@
 This C++ program analyzes 145 years of global temperature data (1880-2025) to test if climate change has a stationary distribution and for global warming trends. Using linear 
 regression on two datasets (Land-Ocean and Global Station), the program tests whether all
 calendar months show coordinated warming trends and the frequency at which temperature
-records are broken with increasing frequency.
+records are broken.
 
 See ClimateChangeDataAnalysis.pdf for an in-depth analysis 
 
